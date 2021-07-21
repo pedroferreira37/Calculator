@@ -1,0 +1,152 @@
+:root {
+    --main-color:#3E3E3E;
+    --secondary:#73F090;
+}
+
+body{
+    background:gray;
+    
+}
+
+button {
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.box {
+    max-width: 70%;
+    height: 550px;
+    margin: 150px auto;
+    display: grid;
+    background: white;
+    
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "result result result result"
+                         "operadores operadores operadores operadores"
+                         "numeros numeros numeros equal "
+                         "numeros numeros numeros equal"
+                         "numeros numeros numeros equal";
+    
+}
+
+
+.num-class {
+    grid-area: numeros;
+    
+    
+}
+
+.num-class {
+    display: grid;
+    grid-template-areas: "seven eight nine"
+                         "seix five four"
+                         "three two one"
+                         "zerro zerro zerro";
+}
+
+.num-class button {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 30px 30px;
+    margin-left: 30px;
+    
+}
+
+.zero {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.one {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.three {
+    grid-column: 3/3;
+    grid-row: 3/4;
+}
+
+.four {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.five {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.six {
+    grid-column: 3/3;
+    grid-row: 2/3;
+}
+
+
+
+.operator-class {
+    grid-area: operadores;
+    
+}
+
+.operator-class button {
+    
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: var(--secondary);
+    font-size: 20px;
+}
+
+.operator-class::after {
+    content: '';
+    width: 250px;
+    height: 1px;
+    background: var(--main-color);
+    opacity: 0.5;
+    display: block;
+    margin-left: 60px;
+}
+
+.limpar {
+    grid-area: equal;
+    background: var(--main-color);
+    
+    
+}
+
+.limpar button { 
+    background: var(--main-color);
+    margin-left: 50px;
+    
+    margin-top: 100px;
+    color: var(--secondary);
+    font-weight: bold;
+}
+    
+
+.result {
+    grid-area: result;
+    color: white;
+    padding: 60px 5px;
+    text-align: right;
+    background: var(--main-color);
+    font-size: 20px;
+    
+}
+
+
+
+
