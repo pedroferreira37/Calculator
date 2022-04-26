@@ -1,6 +1,6 @@
-### SIMPLE CALCULATOR 
+<h1>SIMPLE CALCULATOR </h1>
 <div>
- <h1>DESCRIPTION</h1>
+ <h2>DESCRIPTION</h2>
  <p>This is a simples calculator that a desenvolved to traing my skills in javascript and also do some UI Design. The calculator itself it's a difficult, but got me trough concepets that i need to learn.</p>
  <h2>Functionality</h2>
  <p>About the funcionality, there's nothing much to say, it's a really a simple calculator.
