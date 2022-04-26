@@ -14,5 +14,5 @@
   <li>The rendering elements on screen after a function call</li>
   <li>One top the was one of most difficult was using CSS to layout the calculator, it makes understand better how Grid Layout works.
  </ul>
- <img>
+ <img src="overview.png"
 </div>
