@@ -2,8 +2,6 @@
 <div>
  <h2>Description</h2>
  <p>This is a simples calculator that a desenvolved to traing my skills in javascript and also do some UI Design. The calculator itself it's a difficult, but got me trough concepets that i need to learn.</p>
- <h2>Functionality</h2>
- <p>About the funcionality, there's nothing much to say, it's a really a simple calculator.
  <h2>Tools</h2>
  <p>The lenguage used is Javascript, the main reason of the choice of this lenguage is to improve my skills in it, and also to improve my code thinking.</p>
  <p>For the layout i used Grid Layout to get better perfomance.
